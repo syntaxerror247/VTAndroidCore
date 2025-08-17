@@ -35,6 +35,7 @@ android {
 }
 
 dependencies {
+    implementation("androidx.core:core-ktx:1.17.0")
     compileOnly(files("lib/godot-lib.aar"))
 }
 
